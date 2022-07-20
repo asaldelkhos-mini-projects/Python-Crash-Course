@@ -1,3 +1,4 @@
+#exercise
 num = 10
 
 # check and print type of num variable
