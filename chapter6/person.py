@@ -7,7 +7,5 @@ person = {
     'city' : 'mashhad'
     }
 
-print(person['first_name'])
-print(person['last_name'])
-print(person['age'])
-print(person['city'])    
+for info in person.values():
+    print(info)
