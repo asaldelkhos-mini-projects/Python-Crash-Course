@@ -4,10 +4,11 @@ prompt = "Hi dear customer, please choose your topping:"
 prompt += "(when ever you finished enter 'quit')"
 print(prompt)
 
-while True:
+active = True
+while active:
     topping = input("topping:")
 
     if topping == 'quit':
-        break
+        active = False
     else:
-        print("we'll add that topping to your pizza.")    
+        print("we'll add that topping to your pizza.")
