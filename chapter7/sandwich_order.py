@@ -8,9 +8,9 @@ while active:
     order = input("Please enter your order:\n(When you are finish enter 'quit'.)")
 
     if order == 'quit':
-        active == False
+        active = False
     else:
         sandwich_orders.append(order)
         finished_orders.append(order)
 
-print("your order is ready.")
+print("\nyour order is ready.")
