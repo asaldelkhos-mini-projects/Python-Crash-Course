@@ -13,6 +13,4 @@ while active:
         sandwich_orders.append(order)
         finished_orders.append(order)
 
-print(sandwich_orders)
-print(finished_orders)
 print("\nyour order is ready.")
