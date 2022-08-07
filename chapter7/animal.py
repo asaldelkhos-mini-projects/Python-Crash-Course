@@ -1,6 +1,10 @@
 animal = ['lion', 'giraffe', 'bear', 'lion', 'elephant']
 
-print(animal)
+for item in animal:
+    print(item)
 while 'lion' in animal:
     animal.remove('lion')
-print(animal)
+
+print('\n')
+for item in animal:
+    print(item)
