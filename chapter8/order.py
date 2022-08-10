@@ -1,13 +1,12 @@
-def sandwich_items(*item):
-    items.append(item)
-    print(f"{item} added in your sandwich")
+def sandwich_items(*items):
+    for item in items:
+        print(f"\n{item} added in your sandwich\n")
 
-items = []
-item = ''
-while item != 'quit':
+active = True
+while active:
     item = input("choose your items:\n(when you are finished enter 'quit')")
     if item != 'quit':
         sandwich_items(item)
     else:
+        active = False
         print("your sandwich is ready.")
-        print(items)
