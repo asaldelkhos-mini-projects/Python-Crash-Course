@@ -16,6 +16,6 @@ class Dog:
 
 dog_name = input("What is your dog name? ")
 dog_age = input("How old is your dog? ")
-Dog(dog_name,dog_age)
-dog_name.sit()
-dog_name.roll_over()
+dog = Dog(dog_name, dog_age)
+dog.sit()
+dog.roll_over()
