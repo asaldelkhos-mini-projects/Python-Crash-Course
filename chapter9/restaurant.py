@@ -14,6 +14,9 @@ class Restaurant:
         print(f"{self.name} is open.")
         print(f"{self.number_served}")
 
+    def update_number_served(self, num):
+        self.number_served = num
+
 restaurant = Restaurant('Rezae', 'Iranian food')
-restaurant.number_served = 10
+restaurant.update_number_served(10)
 restaurant.describe_restaurant()
