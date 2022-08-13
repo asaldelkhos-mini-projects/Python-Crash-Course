@@ -15,4 +15,5 @@ class Restaurant:
         print(f"{self.number_served}")
 
 restaurant = Restaurant('Rezae', 'Iranian food')
+restaurant.number_served = 10
 restaurant.describe_restaurant()
