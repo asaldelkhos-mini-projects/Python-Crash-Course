@@ -15,9 +15,20 @@ class User:
     def  inccrement_login_attempts(self):
         self.login_attempts += 1
         print(f"{self.login_attempts}")
-        
-person1 = User('Asal', 'delkhosh')
-person1.describe_user()
-person1.greet_user()
-person1.inccrement_login_attempts()
-person1.inccrement_login_attempts()
+
+class Admin(User):
+    """docstring for Admin."""
+
+    def __init__(self, first_name, last_name):
+        super().__init__(first_name, last_name)
+
+    def show_privileges():
+        privileges = ['can add post', 'can delete post', 'can ban user']
+        for privilege in privileges:
+            print(privilege)    
+
+#person1 = User('Asal', 'delkhosh')
+#person1.describe_user()
+#person1.greet_user()
+#person1.inccrement_login_attempts()
+#person1.inccrement_login_attempts()
