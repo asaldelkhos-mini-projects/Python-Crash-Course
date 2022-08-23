@@ -1,0 +1,4 @@
+In Python you can get information from users
+In Python you can print
+In Python you can make lists, dictionaries
+In Python you can work with functions
