@@ -1,5 +1,5 @@
-filename = 'learning_python'
+filename = 'learning_python.txt'
 
 with open(filename) as file_object:
     text = file_object.read()
-print(text.rtrip())    
+print(text.rstrip())
