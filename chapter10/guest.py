@@ -5,7 +5,7 @@ with open(filename, 'a') as file_object:
     active = True
     while active:
         name = input("What is your name? ")
-        if name == Finish:
+        if name == 'Finish':
             active = False
         else:
             guest_name.append(name)
