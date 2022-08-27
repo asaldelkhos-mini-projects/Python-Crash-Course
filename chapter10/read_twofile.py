@@ -7,6 +7,6 @@ def read_file(filename):
     else:
         print(contents)
 
-filenames = ['dogs.txt', 'cats.txt']
+filenames = ['dogs.txt', 'cats.txt', 'fish.txt']
 for filename in filenames:
     read_file(filename)
