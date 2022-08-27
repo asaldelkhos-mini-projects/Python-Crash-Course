@@ -1,4 +1,4 @@
-failname = 'guest.txt'
+filename = 'guest.txt'
 
 with open(filename, 'a') as file_object:
     guest_name = []
