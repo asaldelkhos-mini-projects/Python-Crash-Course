@@ -14,4 +14,4 @@ while True:
     except ZeroDivisionError:
         print("You can't divide by 0!")
     else:
-        print(answer)                
+        print(answer)

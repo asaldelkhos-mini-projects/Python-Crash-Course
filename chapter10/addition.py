@@ -9,5 +9,9 @@ while True:
     if second_number == 'q':
         break
 
-    sum = int(first_number) + int(second_number)
-    print(sum)
+    try:
+        sum = int(first_number) + int(second_number)
+    except ValueError:
+        print("You should Enter numbers")
+    else:
+        print(sum)
