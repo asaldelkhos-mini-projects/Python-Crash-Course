@@ -9,4 +9,5 @@ with open(filename, 'a') as file_object:
             active = False
         else:
             guest_name.append(name)
-    file_object.write(guest_name)
+            print(guest_name)
+            file_object.write(guest_name)
