@@ -10,4 +10,5 @@ with open(filename, 'a') as file_object:
         else:
             guest_name.append(name)
             print(guest_name)
-            file_object.write(guest_name)
+            file_object.write(name)
+            file_object.write("\n")
