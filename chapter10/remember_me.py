@@ -10,3 +10,11 @@ def get_stored_username():
         return None
     else:
         return username
+
+# Prompt for new username
+def get_new_username():
+    username = input("What is your name?")
+    filename = 'username.json'
+    with open(filename, 'w') as f:
+        json.dump(username, f)
+    return username    
