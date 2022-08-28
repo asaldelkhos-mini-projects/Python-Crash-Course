@@ -17,4 +17,13 @@ def get_new_username():
     filename = 'username.json'
     with open(filename, 'w') as f:
         json.dump(username, f)
-    return username    
+    return username
+
+# Greet the user by name
+def greet_user():
+    username = get_stored_username()
+    if username:
+        print(f"Welcome back, {username}!")
+    else:
+        username = get_new_username()
+        print(f"We'll remember you when you come back, {username}")    
