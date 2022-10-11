@@ -11,3 +11,5 @@ of plots that are generated
 -ax represents a single plot in the figure
 
 """
+ax.plot(squares)
+"""plot() method will try to plot the data it's given in a meaningful way"""
