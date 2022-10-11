@@ -12,4 +12,7 @@ of plots that are generated
 
 """
 ax.plot(squares)
-"""plot() method will try to plot the data it's given in a meaningful way"""
+"""plot() method will try to plot the data
+it's given in a meaningful way"""
+plt.show()
+"""this line opens Matplotlib viewer and displays the plot"""
