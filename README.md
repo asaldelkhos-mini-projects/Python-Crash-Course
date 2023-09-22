@@ -1,11 +1,7 @@
-<h1 align="center">
-Python Crash Course
-</h1>
-
-<br />
+# Python Crash Course
 
 Learning and practicing python programming language.
 
-### Resources
+## Resources
 
 - Python Crash Course Book
